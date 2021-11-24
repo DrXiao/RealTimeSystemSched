@@ -135,7 +135,7 @@ void check_new_jobs_release(struct list_head *job_queue) {
 void execute_job(struct list_head *job_queue,
                  int (*sched_algo)(struct job *, struct job *)) {
     bool change_job = false;
-    if (has_new_job || !exec_job) {
+    if (has_new_job || !exec_job || sched_algo == strict_lst_cmp_jobs) {
         struct list_head *cur = NULL;
         LIST_FOR_EACH(cur, job_queue) {
             struct job_queue_node *accesser =
