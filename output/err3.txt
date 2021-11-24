@@ -1,0 +1,7 @@
+** Rate Monotonic **
+At clock 63: Job 3 misses deadline (abs_deadline: 63, remain_exec_time: 1)
+
+** Earliest Deadline First **
+
+** strict LST **
+

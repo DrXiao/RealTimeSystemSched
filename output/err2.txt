@@ -1,0 +1,6 @@
+** Rate Monotonic **
+
+** Earliest Deadline First **
+
+** strict LST **
+

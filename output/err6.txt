@@ -1,0 +1,12 @@
+** Rate Monotonic **
+At clock 15: Job 2 misses deadline (abs_deadline: 15, remain_exec_time: 1)
+At clock 23: Job 3 misses deadline (abs_deadline: 25, remain_exec_time: 3)
+
+** Earliest Deadline First **
+At clock 23: Job 3 misses deadline (abs_deadline: 25, remain_exec_time: 3)
+At clock 23: Job 2 misses deadline (abs_deadline: 25, remain_exec_time: 3)
+
+** strict LST **
+At clock 23: Job 3 misses deadline (abs_deadline: 25, remain_exec_time: 3)
+At clock 24: Job 1 misses deadline (abs_deadline: 25, remain_exec_time: 2)
+

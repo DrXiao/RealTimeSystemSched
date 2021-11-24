@@ -1,0 +1,52 @@
+** Rate Monotonic **
+Schedulability test for EDF: 1.175000, sched_num: 0.828427
+Schedulable: false
+0 (nil)
+5 T2
+10 T1
+19 T2
+30 T1
+39 (nil)
+50 T1
+59 T2
+70 T1
+79 T2
+90 T1
+99 (nil)
+105 T2
+110
+
+** Earliest Deadline First **
+Schedulability test for RM: 1.175000, sched_num: 1
+Schedulable: false
+0 (nil)
+5 T2
+10 T1
+19 T2
+30 T1
+39 (nil)
+50 T1
+59 T2
+70 T1
+79 T2
+91 T1
+100 (nil)
+105 T2
+110
+
+** strict LST **
+0 (nil)
+5 T2
+10 T1
+19 T2
+30 T1
+39 (nil)
+50 T1
+59 T2
+70 T1
+79 T2
+91 T1
+100 (nil)
+105 T2
+110
+
