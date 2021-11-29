@@ -6,5 +6,5 @@ At clock 95: Job 2 misses deadline (abs_deadline: 95, remain_exec_time: 1)
 At clock 39: Job 2 misses deadline (abs_deadline: 45, remain_exec_time: 7)
 
 ** strict LST **
-At clock 39: Job 2 misses deadline (abs_deadline: 45, remain_exec_time: 7)
+At clock 45: Job 2 misses deadline (abs_deadline: 45, remain_exec_time: 1)
 
